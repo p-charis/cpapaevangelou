@@ -1,6 +1,6 @@
 ---
 title: "Digital Services Act, Brussels Effect and the Future of the Internet"
-collection: talks
+collection: publications
 type: "Article"
 permalink: /posts/8/12/20-fujo-art1
 venue: "FuJo"
