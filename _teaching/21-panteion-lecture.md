@@ -1,7 +1,7 @@
 ---
 title: "The Political Economy of Live-Streaming Video-Games"
 collection: talks
-type: "Lecture"
+type: "teaching"
 permalink: /talks/28/1/21-panteion-lecture
 venue: "Panteion University of Social & Political Sciences"
 date: 28/1/21
