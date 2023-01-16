@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : @charispapaev
+  username               : &@charispapaev
 facebook:
   username               :
   app_id                 :
