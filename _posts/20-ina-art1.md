@@ -1,7 +1,7 @@
 ---
 title: "Regulation of political speech online: the two contradictory models of Twitter and Facebook (French)"
 collection: posts
-type: "Article"
+type: "publications"
 permalink: /posts/7/7/20-ina-art1
 venue: "Institute National de l' Audiovisuel"
 date: 7/7/20
