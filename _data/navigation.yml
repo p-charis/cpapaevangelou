@@ -13,7 +13,7 @@ main:
     url: /portfolio/
         
   - title: "Press"
-    url: /year-archive/
+    url: /posts/
     
   - title: "CV"
     url: /cv/

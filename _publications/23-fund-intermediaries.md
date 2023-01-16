@@ -12,4 +12,4 @@ With more and more governments around the world considering or having already pa
 
 [Download paper here](https://www.tandfonline.com/doi/full/10.1080/21670811.2022.2155206)
 
-Recommended citation: Papaevangelou, C. (2023). Funding Intermediaries: Google and Facebookеs Strategy to Capture Journalism. <i>Digital Journalism</i>, 1а22. https://doi.org/10.1080/21670811.2022.2155206
+Recommended citation: Papaevangelou, C. (2023). Funding Intermediaries: Google and Facebookеs Strategy to Capture Journalism. <i>Digital Journalism</i>. https://doi.org/10.1080/21670811.2022.2155206
