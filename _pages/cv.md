@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D. University of Paul Sabatier (Toulouse III) - LERASS, MSCA-Actions (H2020) | 2019 - 2023 (Expected) (https://www.lerass.com)
-* M.A. New Media & Digital Culture (7,91/10) | University of Utrecht | 2017-2018 (https://www.uu.nl/en/masters/new-media-digital-culture)
-* B.A. Communication, Media & Culture (8,93/10) | Panteion University of Social & Political Sciences | 2012-2017 (https://cmc.panteion.gr/en/)
+* Ph.D. University of Paul Sabatier (Toulouse III) - LERASS, MSCA-Actions (H2020), 2019 - 2023 (Expected) (https://www.lerass.com)
+* M.A. New Media & Digital Culture (7,91/10), University of Utrecht, 2017-2018 (https://www.uu.nl/en/masters/new-media-digital-culture)
+* B.A. Communication, Media & Culture (8,93/10), Panteion University of Social & Political Sciences, 2012-2017 (https://cmc.panteion.gr/en/)
 
 Work experience
 ======
@@ -64,8 +64,3 @@ Data
   <ul>{% for post in site.portfolio %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
