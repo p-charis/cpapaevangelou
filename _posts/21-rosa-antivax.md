@@ -1,8 +1,8 @@
 ---
 title: "Anti-vaxxers and sceptics on Greek-language social media: a form of far-right propaganda (Greek)"
-collection: talks
+collection: posts
 type: "Article"
-permalink: /talks/17/10/21-rosa-antivax
+permalink: /posts/17/10/21-rosa-antivax
 venue: "Online"
 date: 17/10/21
 location: "Athens, Greece"

@@ -3,7 +3,7 @@ title: "Exploring Video-game Production's Contingency on Live-Streaming Platform
 collection: publications
 permalink: /publication/15/9/21-twitch-pol-econ
 excerpt: 'This article studies the cultural contingency of video-game production on Amazonеs live-streaming platform, Twitch. It looks at this phenomenon from a political-economic perspective to unearth Twitchеs platformisation strategy to better understand what it means for the video-game industry. Platformisation signifies the infrastructural embeddedness of platforms, supported by a business strategy of expanding beyond their servicesе boundaries to standardise appropriation, processing and exploitation of data, resulting in a dependency of content creators on digital platforms. Subsequently, we wish to grasp what dependencies are created and how it is made possible. We argue that Twitch is transforming into an integral part of the video-game production cycle by expanding its services to every stage of a gameеs life cycle. Consequently, game developers are incentivised to apply these features in their game design, thus creating an economic feedback loop that a) aspires to increase user acquisition, retention and revenue, b) locks-in game developers and viewers alike, and c) вplatformisesг the gaming experience.'
-date: 21/15/9
+date: 21/9/15
 venue: 'AoIR Selected Papers of Internet Research, 2021'
 paperurl: 'https://journals.uic.edu/ojs/index.php/spir/article/view/12223'
 citation: 'Papaevangelou, C., &amp; Roinioti, E. (2021). EXPLORING VIDEO-GAME PRODUCTIONеS CONTINGENCY ON LIVE-STREAMING PLATFORMS: THE CASE OF TWITCH. AoIR Selected Papers of Internet Research, 2021. https://doi.org/10.5210/spir.v2021i0.12223'

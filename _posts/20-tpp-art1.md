@@ -1,8 +1,8 @@
 ---
 title: "Contact Tracing & Solutionism (Greek)"
-collection: talks
+collection: posts
 type: "Article"
-permalink: /talks/16/5/20-tpp-art1
+permalink: /posts/16/5/20-tpp-art1
 venue: "The Press Project"
 date: 16/5/20
 location: "Athens, Greece"

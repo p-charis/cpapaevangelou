@@ -1,8 +1,8 @@
 ---
 title: "Reporting on social networks, a means of moderation but also of censorship (French)"
-collection: talks
+collection: posts
 type: "Article"
-permalink: /talks/10/12/20-ina-art2
+permalink: /posts/10/12/20-ina-art2
 venue: "Institute National de l' Audiovisuel"
 date: 10/12/20
 location: "France"

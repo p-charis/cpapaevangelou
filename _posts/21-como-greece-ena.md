@@ -1,8 +1,8 @@
 ---
 title: "Content moderation and censorship on social media: The case of Koufontinas (Greek)"
-collection: talks
+collection: posts
 type: "Article"
-permalink: /talks/16/11/21-como-greece-ena
+permalink: /posts/16/11/21-como-greece-ena
 venue: "Online"
 date: 16/11/21
 location: "Athens, Greece"
