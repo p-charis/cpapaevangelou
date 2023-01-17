@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Charis Papaevangelou"
+title                    : "Charis Papaevangelou (About)"
 title_separator          : "-"
 name                     : &name "Charis Papaevangelou"
 description              : &description "PhD Candidate"
