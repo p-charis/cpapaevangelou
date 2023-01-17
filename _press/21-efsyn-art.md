@@ -4,7 +4,7 @@ collection: posts
 type: "Article"
 permalink: /posts/4/3/21-efsyn-art
 venue: "Efimerida ton Syntakton"
-date: 4/3/21
+date: 2021-04-03
 location: "Athens, Greece"
 ---
 

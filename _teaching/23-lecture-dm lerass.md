@@ -4,7 +4,7 @@ collection: talks
 type: "Lecture"
 permalink: /talks/10/11/22-lecture-dm-lerass
 venue: "LERASS"
-date: 10/11/22
+date: 2022-11-10
 location: "Toulouse, France"
 ---
 

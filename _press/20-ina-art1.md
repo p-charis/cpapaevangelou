@@ -4,7 +4,7 @@ collection: posts
 type: "publications"
 permalink: /posts/7/7/20-ina-art1
 venue: "Institute National de l' Audiovisuel"
-date: 7/7/20
+date: 2020-07-07
 location: "France"
 ---
 

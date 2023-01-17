@@ -4,7 +4,7 @@ collection: posts
 type: "Article"
 permalink: /posts/16/11/21-como-greece-ena
 venue: "Online"
-date: 16/11/21
+date: 2021-11-16
 location: "Athens, Greece"
 ---
 

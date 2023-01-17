@@ -4,7 +4,7 @@ collection: talks
 type: "teaching"
 permalink: /talks/28/1/21-panteion-lecture
 venue: "Panteion University of Social & Political Sciences"
-date: 28/1/21
+date: 2021-01-28
 location: "Athens, Greece"
 ---
 

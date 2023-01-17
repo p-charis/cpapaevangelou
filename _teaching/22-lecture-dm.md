@@ -4,7 +4,7 @@ collection: talks
 type: "Lecture"
 permalink: /talks/3/12/22-lecture-dm
 venue: "National University of Athens"
-date: 3/12/22
+date: 2022-12-03
 location: "Athens, Greece"
 ---
 

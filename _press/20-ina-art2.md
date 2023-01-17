@@ -4,7 +4,7 @@ collection: posts
 type: "posts"
 permalink: /posts/10/12/20-ina-art2
 venue: "Institute National de l' Audiovisuel"
-date: 10/12/20
+date: 2020-12-10
 location: "France"
 ---
 

@@ -2,9 +2,9 @@
 title: "JOLT Toulouse Conference"
 collection: talks
 type: "Presentation"
-permalink: /talks/31/5/21-jolt-toulouse
+permalink: /talks/31-5-21-jolt-toulouse
 venue: "JOLT"
-date: 2021/5/31
+date: 2021-05-31
 location: "Toulouse, France"
 ---
 

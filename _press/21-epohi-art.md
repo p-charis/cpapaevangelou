@@ -4,7 +4,7 @@ collection: posts
 type: "Article"
 permalink: /posts/7/3/21-epohi-art
 venue: "Epohi"
-date: 7/3/21
+date: 2021-03-07
 location: "Athens, Greece"
 ---
 

@@ -4,7 +4,7 @@ collection: press
 type: "Press"
 permalink: /posts/8/12/20-fujo-art1
 venue: "FuJo"
-date: 20/12/8
+date: 2020-12-08
 location: "Online"
 ---
 

@@ -4,7 +4,7 @@ collection: posts
 type: "Article"
 permalink: /posts/16/5/20-tpp-art1
 venue: "The Press Project"
-date: 16/5/20
+date: 2020-05-16
 location: "Athens, Greece"
 ---
 

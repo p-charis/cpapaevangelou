@@ -2,9 +2,9 @@
 title: "JOLT Amsterdam Conference"
 collection: talks
 type: "Presentation"
-permalink: /talks/1/4/22-jolt-amsterdam
+permalink: /talks/1-4-22-jolt-amsterdam
 venue: "JOLT"
-date: 2022/4/1
+date: 2022-04-01
 location: "Amsterdam, Netherlands"
 ---
 

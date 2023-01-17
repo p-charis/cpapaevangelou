@@ -4,7 +4,7 @@ collection: posts
 type: "Article"
 permalink: /posts/17/10/21-rosa-antivax
 venue: "Online"
-date: 17/10/21
+date: 2021-10-17
 location: "Athens, Greece"
 ---
 
