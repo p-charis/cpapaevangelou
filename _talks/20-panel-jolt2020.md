@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/23/6/20-panel-jolt2020
 venue: "JOLT"
-date: 20/6/23
+date: 2020/6/23
 location: "Thessaloniki, Greece"
 ---
 

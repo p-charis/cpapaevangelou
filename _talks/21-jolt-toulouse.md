@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/31/5/21-jolt-toulouse
 venue: "JOLT"
-date: 21/5/31
+date: 2021/5/31
 location: "Toulouse, France"
 ---
 

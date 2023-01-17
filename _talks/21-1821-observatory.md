@@ -4,6 +4,6 @@ collection: talks
 type: "Talk"
 permalink: /talks/16/11/21-1821-observatory
 venue: "Online"
-date: 21/11/16
+date: 2021/11/16
 location: "Athens, Greece"
 ---
