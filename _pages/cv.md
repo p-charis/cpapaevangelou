@@ -11,17 +11,17 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Political Economy of Platform Governacne, 2019 - 2023 (Expected), [University of Paul Sabatier (Toulouse III) - LERASS] (https://www.lerass.com)
-* M.A. New Media & Digital Culture (7,91/10), 2017-2018, [University of Utrecht] (https://www.uu.nl/en/masters/new-media-digital-culture)
-* B.A. Communication, Media & Culture (8,93/10), 2012-2017, [Panteion University of Social & Political Sciences] (https://cmc.panteion.gr/en/)
+* Ph.D. in Political Economy of Platform Governacne, 2019 - 2023 (Expected), [University of Paul Sabatier (Toulouse III) - LERASS](https://www.lerass.com)
+* M.A. New Media & Digital Culture (7,91/10), 2017-2018, [University of Utrecht](https://www.uu.nl/en/masters/new-media-digital-culture)
+* B.A. Communication, Media & Culture (8,93/10), 2012-2017, [Panteion University of Social & Political Sciences](https://cmc.panteion.gr/en/)
 
 Work experience
 ======
-* Sept 2021 - May 2022: Part-time Research Assistant at the [Centre for Media, Technology & Democracy of McGill University] (https://www.mediatechdemocracy.com)
+* Sept 2021 - May 2022: Part-time Research Assistant at the [Centre for Media, Technology & Democracy of McGill University](https://www.mediatechdemocracy.com)
   * Collaboration with Centre for Media, Technology and Democracy on a 9-month research project to map the platform funding for journalism ecosystem in Canada and internationally. Remote
-* June 2021 - Sept 2021: Research Assistant at the [Institute of Future Media, Democracy & Society of Dublin City University] (https://fujomedia.eu)
+* June 2021 - Sept 2021: Research Assistant at the [Institute of Future Media, Democracy & Society of Dublin City University](https://fujomedia.eu)
   * Part of JOLT's secondment program, during which we analysed platforms' transparency reports on disinformation and compliance with the European Commission's Code of Conduct on Disinformation. Remote.
-* Aug 2018 - Feb 2019: Communications Manager for [Tamasenco, a Mobile Video-Games Developer in Athens, Greece] (https://tamasenco.com)
+* Aug 2018 - Feb 2019: Communications Manager for [Tamasenco, a Mobile Video-Games Developer in Athens, Greece](https://tamasenco.com)
   
 Skills
 ======
