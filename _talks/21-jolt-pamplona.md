@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/17/9/21-jolt-pamplona
 venue: "JOLT"
-date: 17/9/21
+date: 21/9/17
 location: "Amsterdam, Netherlands"
 ---
 

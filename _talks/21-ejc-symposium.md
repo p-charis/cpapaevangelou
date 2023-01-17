@@ -4,7 +4,7 @@ collection: talks
 type: "Conference"
 permalink: /talks/21/10/21-ejc-symposium
 venue: "European Journal of Communication"
-date: 21/10/21
+date: 22/10/21
 location: "Toulouse, France"
 ---
 

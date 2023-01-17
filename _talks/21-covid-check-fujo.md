@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/25/6/21-covid-check-fujo
 venue: "Online"
-date: 25/6/21
+date: 21/6/25
 location: "Dublin, Ireland"
 ---
 

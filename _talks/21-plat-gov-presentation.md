@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/9/9/21-plat-gov-presentation
 venue: "Online"
-date: 9/9/21
+date: 21/9/9
 location: "Leibniz, Germany"
 ---
 

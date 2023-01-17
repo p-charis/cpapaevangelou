@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/16/6/21-covid-check-bai
 venue: "Online"
-date: 16/6/21
+date: 21/6/16
 location: "Dublin, Ireland"
 ---
 
