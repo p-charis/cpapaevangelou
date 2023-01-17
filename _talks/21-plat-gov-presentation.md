@@ -8,6 +8,6 @@ date: 21/9/9
 location: "Leibniz, Germany"
 ---
 
-[More information here](https://leibniz-hbi.de/en/events/who-gets-to-say-who-gets-to-speak-series)
+[Read here](https://leibniz-hbi.de/en/events/who-gets-to-say-who-gets-to-speak-series)
 
 Presented my peer-reviewed article to Hans-Bredow Institute

@@ -8,6 +8,6 @@ date: 16/11/21
 location: "Athens, Greece"
 ---
 
-[More information here](https://www.enainstitute.org/__________-¹___________-___-_______/)
+[Read here](https://www.enainstitute.org/__________-¹___________-___-_______/)
 
 Article for a Greek news outlet

@@ -8,6 +8,6 @@ date: 20/12/8
 location: "Online"
 ---
 
-[More information here](https://fujomedia.eu/digital-services-act-brussels-effect-and-the-future-of-the-internet/)
+[Read here](https://fujomedia.eu/digital-services-act-brussels-effect-and-the-future-of-the-internet/)
 
 Article for FuJo

@@ -8,6 +8,6 @@ date: 21/6/16
 location: "Dublin, Ireland"
 ---
 
-[More information here](https://www.bai.ie/en/new-report-recommends-development-of-robust-procedures-for-reporting-and-monitoring-online-disinformation/)
+[Read here](https://www.bai.ie/en/new-report-recommends-development-of-robust-procedures-for-reporting-and-monitoring-online-disinformation/)
 
 Presented our work on the CovidCheck Report to the European Commission &amp; Broadcasting Authority of Ireland members

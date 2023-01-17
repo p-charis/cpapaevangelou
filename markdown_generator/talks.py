@@ -93,7 +93,7 @@ for row, item in talks.iterrows():
     
     
     if len(str(item.talk_url)) > 3:
-        md += "\n[More information here](" + item.talk_url + ")\n" 
+        md += "\n[Read here](" + item.talk_url + ")\n" 
         
     
     if len(str(item.description)) > 3:

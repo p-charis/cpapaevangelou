@@ -8,6 +8,6 @@ date: 10/12/20
 location: "France"
 ---
 
-[More information here](https://larevuedesmedias.ina.fr/signalement-reseaux-sociaux-moderation-censure)
+[Read here](https://larevuedesmedias.ina.fr/signalement-reseaux-sociaux-moderation-censure)
 
 Article for a French news outlet

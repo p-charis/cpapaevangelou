@@ -8,6 +8,6 @@ date: 7/7/20
 location: "France"
 ---
 
-[More information here](https://larevuedesmedias.ina.fr/regulation-discours-politique-twitter-facebook-reseaux-sociaux)
+[Read here](https://larevuedesmedias.ina.fr/regulation-discours-politique-twitter-facebook-reseaux-sociaux)
 
 Article for a French news outlet

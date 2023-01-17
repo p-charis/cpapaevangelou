@@ -8,6 +8,6 @@ date: 16/5/20
 location: "Athens, Greece"
 ---
 
-[More information here](https://thepressproject.gr/i-megali-exodos-ke-i-ichnilatisi/)
+[Read here](https://thepressproject.gr/i-megali-exodos-ke-i-ichnilatisi/)
 
 Article for a Greek news outlet
