@@ -687,6 +687,17 @@
   font-weight: 400;
 }
 
+.#{$fa-css-prefix}.#{$fa-css-prefix}-mastodon {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-mastodon-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+.#{$fa-css-prefix}.#{$fa-css-prefix}-mastodon-square:before { content: fa-content($fa-var-mastodon); }
+
 .#{$fa-css-prefix}.#{$fa-css-prefix}-bitbucket {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400;

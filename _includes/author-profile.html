@@ -117,6 +117,9 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
+      {% endif %}
+      {% if author.mastodon %}
+        <li><a href="https://mastodon.world/@:{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon-w" aria-hidden="true"></i> Mastodon</a></li>
 {% endif %}
     </ul>
   </div>
