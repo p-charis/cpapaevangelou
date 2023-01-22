@@ -8,4 +8,4 @@ date: 2021-01-28
 location: "Athens, Greece"
 ---
 
-Gave a lecture to BA students of Media Studies 
+Gave a lecture to BA students of Media Studies on the Political Economy of Twitch
