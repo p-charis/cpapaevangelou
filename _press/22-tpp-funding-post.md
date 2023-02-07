@@ -8,5 +8,5 @@ date: 2023-02-07
 location: ""
 ---
 
-[Read here]https://techpolicy.press/journalism-platforms-and-the-challenges-of-public-policy/
+[Read here](https://techpolicy.press/journalism-platforms-and-the-challenges-of-public-policy/)
 Wrote a piece on Google's and Meta's funding for journalism programs.
