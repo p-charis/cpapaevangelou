@@ -8,4 +8,4 @@ date: 2022-10-21
 location: "Toulouse, France"
 ---
 
-Participated in a symposium of the EJC for an upcoming Special Issue
+Participated in a symposium of the European Journal of Communication for an upcoming Special Issue on the Platformisation of the Public Sphere. [You can access the presentation here](https://github.com/p-charis/cpapaevangelou/blob/master/presentation-files/ejc-symposium-papaevangelou.pdf) and you can [read the preprint here](https://shs.hal.science/halshs-03933538v1).

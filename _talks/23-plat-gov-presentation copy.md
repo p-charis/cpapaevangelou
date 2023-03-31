@@ -8,5 +8,5 @@ date: 2024-03-03
 location: "Remote, Global"
 ---
 
-Presented a work-in-progress with Eugenia Siapera on a case study demonstrating how Big Tech is colonising a periphery country like Greece by homing in on specific investments announced by the company. [You can access the presentation here](https://github.com/p-charis/cpapaevangelou/blob/dab1bcfdf05b158595f18189415b5c4f1bc99d9e/platform-power-greece-colonialism.pdf) and [read here more about the conference](https://platgov.net/conference-2023/).
+Presented a work-in-progress with Eugenia Siapera on a case study demonstrating how Big Tech is colonising a periphery country like Greece by homing in on specific investments announced by the company. [You can access the presentation here](https://github.com/p-charis/cpapaevangelou/blob/master/presentation-files/platform-power-greece-colonialism.pdf) and [read here more about the conference](https://platgov.net/conference-2023/).
 
