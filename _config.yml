@@ -114,7 +114,7 @@ author:
   weibo            :
   xing             :
   youtube          :
-  mastodon         : "<a rel="me" href="https://mastodon.world/@p_charis">Mastodon</a>"
+  mastodon         : "@p_charis"
 
 
 # Reading Files
