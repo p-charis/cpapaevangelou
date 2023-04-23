@@ -61,7 +61,7 @@ twitter:
 facebook:
   username               :
   app_id                 :
-  publisher
+  publisher                 :
 mastodon:
    verification          : rel="me"
 og_image                 :  # Open Graph/Twitter default site image
