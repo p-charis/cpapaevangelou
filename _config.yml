@@ -62,8 +62,6 @@ facebook:
   username               :
   app_id                 :
   publisher                 :
-mastodon:
-   verification          : rel="me"
 og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -116,7 +114,7 @@ author:
   weibo            :
   xing             :
   youtube          :
-  mastodon         : "@p_charis"
+  mastodon         : "<a rel="me" href="https://mastodon.world/@p_charis">Mastodon</a>"
 
 
 # Reading Files
