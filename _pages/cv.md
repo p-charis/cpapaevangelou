@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Political Economy of Platform Governacne, 2019 - 2023 (Expected), [University of Paul Sabatier (Toulouse III) - LERASS](https://www.lerass.com)
+* Ph.D. in Political Economy of Platform Governance, 2019 - 2023 (Expected), [University of Paul Sabatier (Toulouse III) - LERASS](https://www.lerass.com)
 * M.A. New Media & Digital Culture (7,91/10), 2017-2018, [University of Utrecht](https://www.uu.nl/en/masters/new-media-digital-culture)
 * B.A. Communication, Media & Culture (8,93/10), 2012-2017, [Panteion University of Social & Political Sciences](https://cmc.panteion.gr/en/)
 
