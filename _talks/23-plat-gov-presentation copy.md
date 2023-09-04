@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/4-4-23-plat-gov-presentation
 venue: "Online"
-date: 2024-03-03
+date: 2023-03-03
 location: "Remote, Global"
 ---
 
