@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Charis Papaevangelou (About)"
 title_separator          : "-"
 name                     : &name "Charis Papaevangelou"
-description              : &description "PhD Candidate"
+description              : &description "Ph.D."
 url                      : https://p-charis.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/cpapaevangelou" # the subpath of your site, e.g. "/blog"
 repository               : "p-charis.github.io/cpapaevangelou/"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Charis Papaevangelou"
   avatar           : "profile_pic.jpg"
-  bio              : "PhD Candidate / MSCA Fellow at the Laboratory of Applied Social Sciences (LERASS) of University of Toulouse"
-  location         : "Toulouse, France"
+  bio              : "Ph.D. | Postdoctoral Researcher at the University of Amsterdam (IViR) & part of AlgoSoc"
+  location         : "Amsterdam, Netherlands"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=xNrSKSgAAAAJ&hl=en"
-  email            : "charispapaevangelou@gmail.com"
+  email            : "c.papaevangelou@uva.nl"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
