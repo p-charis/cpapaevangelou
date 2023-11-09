@@ -14,5 +14,5 @@ Overall, my work is positioned at the nexus of media, political, cultural, and s
 
 My work has been featured in various news outlets (in Greek, English and French) and international peer-reviewed journals. I'm also a Research Fellow at the Centre for Media, Tech & Democracy of McGill University and the Institute for Alternative Policies in Athens, Greece.
 
-I'm always happy to discuss work, culture and geek out about video-games :) Feel free to reach out to me at c.papaevangelou@uva.nl or on WhatsApp/Signal on +30 6979483706.
+I'm always happy to discuss work, culture and geek out about video-games :) Feel free to reach out to me at: c.papaevangelou@uva.nl; WhatsApp (+310622811437); Signal (+306979483706).
 
