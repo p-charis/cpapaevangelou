@@ -4,7 +4,7 @@ collection: posts
 type: "Press"
 permalink: /posts/10/13/23-lettre-interview
 venue: "La Lettre"
-date: 2023-13-10
+date: 2023-10-13
 location: "Brussels, Belgium"
 ---
 
