@@ -177,10 +177,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-hero h1 {
-  max-width: 620px;
+  max-width: 660px;
   margin: 0 0 1.8rem;
   color: var(--fig-leaf);
-  font-size: clamp(2.35rem, 4.2vw, 3.4rem);
+  font-size: clamp(2.8rem, 4.8vw, 4.2rem);
   font-weight: 600;
   line-height: 0.94;
   letter-spacing: -0.05em;
@@ -359,9 +359,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .publication-page .page__title {
   max-width: 720px;
-  font-size: clamp(1.15rem, 1.55vw, 1.55rem);
-  line-height: 1.3;
-  letter-spacing: -0.015em;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  line-height: 1.24;
+  letter-spacing: -0.02em;
 }
 
 .publication-abstract { max-width: 720px; }
@@ -469,7 +469,7 @@ td, th { border-color: var(--line); }
   .masthead__inner-wrap { padding-right: 1rem; padding-left: 1rem; }
   .masthead__menu-item--lg { padding-right: 1rem; }
   .home-hero { padding: 3.5rem 0 4rem; }
-  .home-hero h1 { font-size: clamp(2.15rem, 10vw, 3rem); }
+  .home-hero h1 { font-size: clamp(2.5rem, 11vw, 3.5rem); }
   .home-section, .home-contact { padding: 3.5rem 0; }
   .section-heading { display: block; }
   .section-heading .text-link { display: inline-block; margin-top: 0.75rem; }
