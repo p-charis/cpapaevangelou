@@ -1,0 +1,22 @@
+# Edit this file to update the "Currently" section on the homepage.
+updated: "June 2026"
+items:
+  - label: "Reading"
+    title: "Add your current read"
+    note: "Book, essay, or paper"
+    url:
+
+  - label: "Playing"
+    title: "Add your current game"
+    note: "Video game or tabletop"
+    url:
+
+  - label: "Watching"
+    title: "Add what you are watching"
+    note: "Film, series, or channel"
+    url:
+
+  - label: "Listening"
+    title: "Add what is on repeat"
+    note: "Album, podcast, or mix"
+    url:

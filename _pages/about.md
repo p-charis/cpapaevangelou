@@ -54,6 +54,25 @@ redirect_from:
   </div>
 </section>
 
+<section class="home-section currently" aria-labelledby="currently-heading">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">In rotation</p>
+      <h2 id="currently-heading">Currently</h2>
+    </div>
+    {% if site.data.currently.updated %}<p class="currently__updated">Updated {{ site.data.currently.updated }}</p>{% endif %}
+  </div>
+  <div class="currently-grid">
+    {% for item in site.data.currently.items %}
+    <article class="currently-card">
+      <p class="currently-card__label">{{ item.label }}</p>
+      <h3>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+      {% if item.note %}<p>{{ item.note }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
 <section class="home-contact" aria-labelledby="contact-heading">
   <h2 id="contact-heading">You can reach out to me at: <a href="mailto:c.papaevangelou@uva.nl">c.papaevangelou[at]uva.nl</a>.</h2>
 </section>
