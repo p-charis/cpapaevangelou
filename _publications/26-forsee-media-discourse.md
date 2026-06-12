@@ -1,5 +1,5 @@
 ---
-title: "D4.2 Media Discourse Analysis"
+title: "FORSEE Horizon Deliverable: Media Discourse Analysis"
 collection: publications
 permalink: /publication/2026/forsee-media-discourse-analysis
 date: 2026-01-31
