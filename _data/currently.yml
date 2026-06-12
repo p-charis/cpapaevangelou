@@ -18,9 +18,9 @@ items:
 
   - label: "Watching"
     current:
-      - title: "Game of Thrones"
-    profile_label: "Letterboxd"
-    profile_url: "https://letterboxd.com/domx/"
+      - title: "TV: Game of Thrones"
+      - title: "For films: check my Letterboxd page"
+        url: "https://letterboxd.com/domx/"
     history: []
 
   - label: "Listening"
