@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: "Charis Papaevangelou"
-excerpt: "Researcher working on platform power, AI infrastructure, media, and democratic governance."
+excerpt: "Researcher working on the state-tech capital power dynamics and their impact on society and the environment"
 redirect_from:
   - /about/
   - /about.html
@@ -15,10 +15,10 @@ redirect_from:
     <figure class="home-portrait home-portrait--mobile">
       <img src="{{ '/images/profile-pic-2025.png' | relative_url }}" alt="Portrait of Charis Papaevangelou">
     </figure>
-    <p class="home-hero__lead">I study how Big Tech's platforms, AI systems, and material infrastructures reshape society and the environment.</p>
+    <p class="home-hero__lead">I study how the power relations between state actors and tech firms shape technology's political economy, including their implications for our societies and the environemnt, and our capacity to reclaim control.</p>
     <div class="home-hero__bio">
       <p>I am a postdoctoral researcher at the University of Amsterdam's <a href="https://www.ivir.nl/">Institute for Information Law</a>, where I work within the <a href="https://algosoc.org/">Public Values in the Algorithmic Society (AlgoSoc)</a> programme. I am also affiliated with the University of Toulouse through the Horizon Europe <a href="https://forsee-project.eu/">FORSEE</a> project.</p>
-      <p>My research draws from critical media, political economy, science and technology studies, and technology governance to examine how the interplay between large technology firms and state actors affects political, economic, informational, and natural environments. My current interests revolve around the political economy of AI infrastructure, particularly data centres.</p>
+      <p>My research draws from critical media, political economy, science and technology studies, and technology governance to examine how the interplay between large technology firms and state actors affects political, economic, informational, and natural environments. <br>My current interests revolve around the political economy of AI infrastructure, particularly data centres.</p>
     </div>
     {% include profile-links.html %}
     <div class="home-actions">
