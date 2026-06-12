@@ -3,23 +3,31 @@
    ========================================================================== */
 
 $(document).ready(function(){
-   // Sticky footer
-  var bumpIt = function() {
-      $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-    },
-    didResize = false;
+  var syncResponsiveNavigation = function() {
+    var $navButton = $("#site-nav button");
+    var $visibleLinks = $("#site-nav .visible-links");
+    var $hiddenLinks = $("#site-nav .hidden-links");
 
-  bumpIt();
-
-  $(window).resize(function() {
-    didResize = true;
-  });
-  setInterval(function() {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
+    if (window.matchMedia("(max-width: 900px)").matches) {
+      while ($visibleLinks.children().length > 1) {
+        $visibleLinks.children().last().prependTo($hiddenLinks);
+      }
+      $navButton.removeClass("hidden").attr("count", $hiddenLinks.children().length);
+    } else if (typeof updateNav === "function") {
+      updateNav();
     }
-  }, 250);
+  };
+
+  syncResponsiveNavigation();
+  $(window).on("resize", syncResponsiveNavigation);
+
+  $("#site-nav button").on("click", function() {
+    var expanded = $(this).attr("aria-expanded") === "true";
+    $(this)
+      .attr("aria-expanded", String(!expanded))
+      .attr("aria-label", expanded ? "Open navigation menu" : "Close navigation menu");
+  });
+
   // FitVids init
   $("#main").fitVids();
 
