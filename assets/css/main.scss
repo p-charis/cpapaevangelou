@@ -40,7 +40,7 @@
 html { background: var(--sandstone); }
 
 body {
-  padding-bottom: 0;
+  padding-bottom: 3.5rem;
   color: var(--ink);
   background: var(--sandstone);
   font-family: var(--font);
@@ -430,11 +430,16 @@ h1, h2, h3, h4, h5, h6 {
 .archive__item-meta { color: var(--dried-fig); font-size: 0.78rem; }
 
 .page__footer {
-  position: static;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 25;
   clear: both;
-  margin-top: 5rem;
+  margin-top: 0;
   color: #fff;
   background: var(--fig-leaf);
+  box-shadow: 0 -1px 0 rgba(47, 51, 44, 0.16);
 }
 
 .page__footer footer { max-width: none; padding: 0; }
@@ -443,15 +448,24 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1.25rem;
   width: min(1160px, calc(100% - 2.4rem));
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 0.65rem 0;
 }
 
-.site-footer__inner p { margin: 0; font-size: 0.75rem; }
+.site-footer__inner p { margin: 0; font-size: 0.65rem; }
+.site-footer__email {
+  margin-left: auto;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.site-footer__email:hover { color: var(--sandstone); }
 .site-footer__inner .profile-links { margin: 0; }
-.site-footer__inner .profile-links a { color: #fff; }
+.site-footer__inner .profile-links { gap: 0.5rem 0.8rem; }
+.site-footer__inner .profile-links a { color: #fff; font-size: 0.68rem; }
 .site-footer__inner .profile-links a:hover { color: var(--sandstone); }
 
 table { border-color: var(--line); background: var(--surface); }
@@ -465,6 +479,7 @@ td, th { border-color: var(--line); }
 }
 
 @media (max-width: 650px) {
+  body { padding-bottom: 4.5rem; }
   #main, .home { width: min(100% - 2rem, 1160px); }
   .masthead__inner-wrap { padding-right: 1rem; padding-left: 1rem; }
   .masthead__menu-item--lg { padding-right: 1rem; }
@@ -475,8 +490,14 @@ td, th { border-color: var(--line); }
   .section-heading .text-link { display: inline-block; margin-top: 0.75rem; }
   .publication-row, .archive-row, .publication-entry { grid-template-columns: 1fr; gap: 0.4rem; }
   .publication-row__meta, .archive-row__meta, .publication-entry__meta { grid-row: auto; }
-  .site-footer__inner { display: block; width: calc(100% - 2rem); }
-  .site-footer__inner .profile-links { margin-top: 1rem; }
+  .site-footer__inner {
+    flex-wrap: wrap;
+    gap: 0.3rem 0.8rem;
+    width: calc(100% - 2rem);
+    padding: 0.5rem 0;
+  }
+  .site-footer__inner p { display: none; }
+  .site-footer__email { width: 100%; margin-left: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

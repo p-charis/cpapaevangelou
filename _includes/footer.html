@@ -1,4 +1,5 @@
 <div class="site-footer__inner">
   <p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</p>
-  {% include profile-links.html %}
+  <a class="site-footer__email" href="mailto:{{ site.author.email }}">c.papaevangelou[at]uva.nl</a>
+  {% include profile-links.html hide_email=true %}
 </div>
