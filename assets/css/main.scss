@@ -177,10 +177,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-hero h1 {
-  max-width: 760px;
+  max-width: 700px;
   margin: 0 0 1.8rem;
   color: var(--fig-leaf);
-  font-size: clamp(3.6rem, 7vw, 6.6rem);
+  font-size: clamp(3.4rem, 6vw, 5.8rem);
   font-weight: 600;
   line-height: 0.94;
   letter-spacing: -0.05em;
@@ -346,12 +346,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-contact {
-  display: grid;
-  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.2fr);
-  gap: clamp(2rem, 6vw, 5rem);
+  display: block;
 }
 
-.home-contact > div:last-child > p { margin-top: 0; color: var(--muted); }
+.home-contact h2 { max-width: 900px; font-size: clamp(1.7rem, 3vw, 2.8rem); }
+.home-contact h2 a { color: var(--dried-fig); }
+
+.page[itemtype="http://schema.org/CreativeWork"] .publication-source { margin-top: 0.35rem; }
+
+.publication-page .page__title {
+  max-width: 900px;
+  font-size: clamp(2rem, 3.8vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
 
 .archive-year {
   margin: 3rem 0 0;

@@ -55,12 +55,5 @@ redirect_from:
 </section>
 
 <section class="home-contact" aria-labelledby="contact-heading">
-  <div>
-    <p class="eyebrow">Contact</p>
-    <h2 id="contact-heading">Research, collaboration, and media enquiries</h2>
-  </div>
-  <div>
-    <p>I welcome conversations about research collaborations, workshops, speaking, and media enquiries.</p>
-    {% include profile-links.html %}
-  </div>
+  <h2 id="contact-heading">You can reach out to me at: <a href="mailto:c.papaevangelou@uva.nl">c.papaevangelou[at]uva.nl</a>.</h2>
 </section>

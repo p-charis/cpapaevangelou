@@ -6,6 +6,7 @@ date: 2026-06-01
 status: "Under review"
 venue: "Journal article"
 authors: "Charis Papaevangelou and Max van Drunen"
+paperurl: "https://www.ivir.nl/publications/"
 citation: "Papaevangelou, C., & van Drunen, M. Institutionalising platform dependence: The paradox of the European Media Freedom Act. Under review."
 ---
 

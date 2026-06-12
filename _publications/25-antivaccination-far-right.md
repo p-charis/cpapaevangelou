@@ -5,6 +5,7 @@ permalink: /publication/2025/antivaccination-far-right-propaganda
 date: 2025-01-02
 venue: "Class, Culture, and the Media in Greece"
 authors: "Nikos Smyrnaios, Charis Papaevangelou, and Panagiotis Tsimpoukis"
+paperurl: "https://link.springer.com/search?query=Class%2C+Culture%2C+and+the+Media+in+Greece"
 citation: "Smyrnaios, N., Papaevangelou, C., & Tsimpoukis, P. (2025). Anti-vaccination and COVID-19 scepticism on Greek-speaking social media: A form of far-right propaganda. In Y. Mylonas & E. Psyllakou (Eds.), <i>Class, Culture, and the Media in Greece</i>. Palgrave."
 ---
 
