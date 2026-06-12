@@ -384,9 +384,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .currently-card__entry + .currently-card__entry {
-  margin-top: 0.85rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid rgba(200, 188, 170, 0.75);
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--dried-fig);
 }
 
 .currently-card h3 {
