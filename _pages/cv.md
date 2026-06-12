@@ -41,7 +41,7 @@ My research examines how large technology firms, including their digital platfor
 **Institutionalising platform dependence: The paradox of the European Media Freedom Act**<br>
 Papaevangelou, C. & van Drunen, M. · Under review
 
-**Shared responsibility, unequal powers: Mapping the limitations of multi-stakeholderism in EU's digital governance**<br>
+**Shared responsibility, unequal power: Mapping the limitations of multi-stakeholderism in the EU's digital governance**<br>
 Papaevangelou, C., Kutscher, S., Helberger, N., van Dijck, J., & Poell, T. · *Journal of Digital Media & Policy*, 2026
 
 **The politics of data colonialism: Amazon and Microsoft's entanglement in Greece 2.0**<br>
@@ -54,7 +54,7 @@ Papaevangelou, C. & Siapera, E. · *Platforms & Society*, 2025 · [DOI](https://
 Papaevangelou, C. & Votta, F. · *Internet Policy Review*, 2025
 
 **Anti-vaccination and COVID-19 scepticism on Greek-speaking social media: A form of far-right propaganda**<br>
-Smyrnaios, N., Papaevangelou, C. & Tsimpoukis, P. · In *Class, Culture, and the Media in Greece*, Palgrave, 2025
+Smyrnaios, N., Papaevangelou, C. & Tsimpoukis, P. · In *Class, Culture, and the Media in Greece*, Palgrave, 2024
 
 **Generative AI and democracy: Risks and opportunities**<br>
 Helberger, N. et al., including Papaevangelou, C. · 2025

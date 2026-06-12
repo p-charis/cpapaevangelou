@@ -2,8 +2,8 @@
 title: "Institutionalising platform dependence: The paradox of the European Media Freedom Act"
 collection: publications
 permalink: /publication/2026/emfa-platform-dependence
-date: 2026-06-01
-status: "Under review"
+date: 2025-09-16
+status: "Under review; preprint available"
 venue: "Journal article"
 authors: "Charis Papaevangelou and Max van Drunen"
 paperurl: "https://osf.io/preprints/socarxiv/rbwpx_v1"

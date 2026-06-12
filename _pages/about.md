@@ -40,7 +40,7 @@ redirect_from:
     {% assign featured_publications = site.publications | sort: 'date' | reverse %}
     {% for post in featured_publications limit:4 %}
       <article class="publication-row">
-        <p class="publication-row__meta">{{ post.date | date: '%Y' }}{% if post.status %}<br>{{ post.status }}{% elsif post.venue %}<br>{{ post.venue }}{% endif %}</p>
+        <p class="publication-row__meta">{% if post.date_precision == 'year' %}{{ post.date | date: '%Y' }}{% else %}{{ post.date | date: '%-d %B %Y' }}{% endif %}{% if post.status %}<br>{{ post.status }}{% elsif post.venue %}<br>{{ post.venue }}{% endif %}</p>
         <div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           {% if post.authors %}<p class="publication-row__authors">{{ post.authors }}</p>{% endif %}
