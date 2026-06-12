@@ -18,7 +18,7 @@ redirect_from:
     <p class="home-hero__lead">I study how Big Tech's platforms, AI systems, and material infrastructures reshape society and the environment.</p>
     <div class="home-hero__bio">
       <p>I am a postdoctoral researcher at the University of Amsterdam's <a href="https://www.ivir.nl/">Institute for Information Law</a>, where I work within the <a href="https://algosoc.org/">Public Values in the Algorithmic Society (AlgoSoc)</a> programme. I am also affiliated with the University of Toulouse through the Horizon Europe <a href="https://forsee-project.eu/">FORSEE</a> project.</p>
-      <p>My research brings critical media research, science and technology studies, political economy, and technology governance into conversation. I examine how large technology firms affect political, economic, informational, and natural environments, with growing attention to AI infrastructure, digital sovereignty, and the environmental implications of artificial intelligence.</p>
+      <p>My research draws from critical media, political economy, science and technology studies, and technology governance to examine how the interplay between large technology firms and state actors affects political, economic, informational, and natural environments. My current interests revolve around the political economy of AI infrastructure, particularly data centres.</p>
     </div>
     {% include profile-links.html %}
     <div class="home-actions">

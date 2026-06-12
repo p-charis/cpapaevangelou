@@ -5,7 +5,7 @@ permalink: /publication/1/9/21-esports-twitch
 date: 2021-01-09
 date_precision: year
 venue: 'Digital Games: Philosophical, social and cultural investigations'
-authors: 'Charis Papaevangelou and Eirini Roinioti'
+authors: 'Charis Papaevangelou and Eleni Roinioti'
 citation: 'Papaevangelou, C., &amp; Roinioti, E. (2021). eSports and Digital Arenas. In <i>Digital Games: Philosophical, social and cultural investigations</i>. Oasis.'
 ---
 Recommended citation: Papaevangelou, C., & Roinioti, E. (2021). eSports and Digital Arenas. In <i>Digital Games: Philosophical, social and cultural investigations</i>. Oasis.
