@@ -600,6 +600,10 @@ td, th { border-color: var(--line); }
   .currently-card:nth-child(n + 3) { border-top: 1px solid var(--line); }
 }
 
+@media (min-width: 651px) and (max-width: 900px) {
+  .home-portrait--mobile { width: 120px; }
+}
+
 @media (max-width: 650px) {
   body { padding-bottom: 0; }
   #main, .home { width: min(100% - 2rem, 1160px); }
