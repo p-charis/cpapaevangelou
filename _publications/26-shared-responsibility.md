@@ -1,0 +1,10 @@
+---
+title: "Shared responsibility, unequal powers: Mapping the limitations of multi-stakeholderism in EU's digital governance"
+collection: publications
+permalink: /publication/2026/shared-responsibility-unequal-powers
+date: 2026-01-01
+venue: "Journal of Digital Media & Policy"
+citation: "Papaevangelou, C., Kutscher, S., Helberger, N., van Dijck, J., & Poell, T. (2026). Shared responsibility, unequal powers: Mapping the limitations of multi-stakeholderism in EU's digital governance. <i>Journal of Digital Media & Policy</i>."
+---
+
+This article maps the limitations of multi-stakeholderism in the European Union's digital governance.

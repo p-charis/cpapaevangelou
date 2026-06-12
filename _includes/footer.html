@@ -6,7 +6,8 @@
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
     {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://x.com/{{ site.twitter.username }}"><span class="social-icon social-icon--x" aria-hidden="true">X</span> X</a></li>
+      {% if site.author.bluesky %}<li><a href="{{ site.author.bluesky }}"><span class="social-icon social-icon--bluesky" aria-hidden="true">&#9729;</span> Bluesky</a></li>{% endif %}
     {% endif %}
     {% if site.facebook.username %}
       <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
