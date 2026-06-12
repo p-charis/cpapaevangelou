@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .page__footer .site-footer__name {
   margin: 0;
-  color: var(--muted);
+  color: #dedfdb;
   font-size: 0.68rem;
   font-weight: 600;
   line-height: 1.2;
@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 0.3rem;
   margin-left: 0;
-  color: #fff;
+  color: #dedfdb;
   font-size: 0.68rem;
   font-weight: 700;
   text-decoration: none;
@@ -547,7 +547,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-footer__email:hover { color: var(--sandstone); }
 .site-footer__inner .profile-links { margin: 0 0 0 auto; }
 .site-footer__inner .profile-links { gap: 0.5rem 0.8rem; }
-.site-footer__inner .profile-links a { color: #fff; font-size: 0.68rem; }
+.site-footer__inner .profile-links a { color: #dedfdb; font-size: 0.68rem; }
 .site-footer__inner .profile-links a:hover { color: var(--sandstone); }
 
 table { border-color: var(--line); background: var(--surface); }
