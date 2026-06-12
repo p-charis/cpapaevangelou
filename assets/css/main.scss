@@ -524,10 +524,16 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1.25rem;
   width: min(1160px, calc(100% - 2.4rem));
   margin: 0 auto;
-  padding: 0.38rem 0;
+  padding: 0.2rem 0;
 }
 
-.site-footer__inner p { margin: 0; color: var(--muted); font-size: 0.68rem; font-weight: 600; }
+.page__footer .site-footer__name {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
 .site-footer__email {
   display: inline-flex;
   align-items: center;
@@ -558,7 +564,7 @@ td, th { border-color: var(--line); }
 }
 
 @media (max-width: 650px) {
-  body { padding-bottom: 2.4rem; }
+  body { padding-bottom: 2rem; }
   #main, .home { width: min(100% - 2rem, 1160px); }
   .masthead__inner-wrap { padding-right: 1rem; padding-left: 1rem; }
   .masthead__menu-item--lg { padding-right: 1rem; }
@@ -589,9 +595,9 @@ td, th { border-color: var(--line); }
     flex-wrap: nowrap;
     gap: 0.55rem;
     width: calc(100% - 2rem);
-    padding: 0.22rem 0;
+    padding: 0.1rem 0;
   }
-  .site-footer__inner p { flex: 0 1 auto; overflow: hidden; font-size: 0.6rem; text-overflow: ellipsis; white-space: nowrap; }
+  .page__footer .site-footer__name { flex: 0 1 auto; overflow: hidden; font-size: 0.6rem; text-overflow: ellipsis; white-space: nowrap; }
   .site-footer__email {
     flex: 0 0 auto;
     width: auto;

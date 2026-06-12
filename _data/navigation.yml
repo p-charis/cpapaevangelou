@@ -15,5 +15,8 @@ main:
   - title: "Press"
     url: /press/
 
+  - title: "What I'm enjoying"
+    url: /currently/
+
   - title: "CV"
     url: /cv/
