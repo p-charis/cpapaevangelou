@@ -1,8 +1,5 @@
 # Main navigation
 main:
-  - title: "About"
-    url: /
-
   - title: "Publications"
     url: /publications/
 
@@ -12,7 +9,7 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Projects & Data"
+  - title: "Projects"
     url: /portfolio/
 
   - title: "Press"

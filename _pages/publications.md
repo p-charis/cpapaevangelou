@@ -2,11 +2,12 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
 
 {% include base_path %}
+
+<p class="archive-intro">Peer-reviewed articles, book chapters, reports, and selected research outputs.</p>
 
 {% assign publications = site.publications | sort: 'date' | reverse %}
 {% assign current_year = '' %}
@@ -16,5 +17,13 @@ author_profile: true
     <h2 class="archive-year">{{ publication_year }}</h2>
     {% assign current_year = publication_year %}
   {% endif %}
-  {% include archive-single.html %}
+  <article class="publication-entry">
+    <p class="publication-entry__meta">{% if post.status %}{{ post.status }} &middot; {% endif %}{% if post.venue %}<i>{{ post.venue }}</i>{% endif %}</p>
+    <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+    {% if post.authors %}<p class="publication-entry__authors">{{ post.authors }}</p>{% endif %}
+    <div class="publication-entry__links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">Publication <span aria-hidden="true">&nearr;</span></a>{% endif %}
+      <a href="{{ base_path }}{{ post.url }}">Details <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </article>
 {% endfor %}

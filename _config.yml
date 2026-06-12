@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Charis Papaevangelou"
 title_separator          : "-"
 name                     : &name "Charis Papaevangelou"
-description              : &description "Researcher working on platform governance, media policy, and the political economy of digital infrastructures."
+description              : &description "Researcher working on platform power, AI infrastructure, media, and democratic governance."
 url                      : https://www.charispapaevangelou.eu
 baseurl                  : ""
 repository               : "p-charis/cpapaevangelou"
@@ -56,22 +56,21 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
-  username               : "charispapaev"
 facebook:
   username               :
   app_id                 :
   publisher                 :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : profile-pic-2025.png
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person
   name                   : "Charis Papaevangelou"
   links:
-    - https://twitter.com/charispapaev
+    - https://bsky.app/profile/bsky.charispapaevangelou.eu
     - https://www.linkedin.com/in/charis-papaevangelou/
     - https://orcid.org/0000-0003-2790-9321
+    - https://scholar.google.com/citations?user=xNrSKSgAAAAJ&hl=en
 
 
 # Analytics
@@ -84,8 +83,8 @@ analytics:
 # Site Author
 author:
   name             : "Charis Papaevangelou"
-  avatar           : "profile_pic.jpg"
-  bio              : "Postdoctoral researcher at the University of Amsterdam (IViR) and member of AlgoSoc."
+  avatar           : "profile-pic-2025.png"
+  bio              : "Postdoctoral researcher at UvA/IViR and the University of Toulouse."
   location         : "Amsterdam, Netherlands"
   employer         : 
   pubmed           : 
@@ -112,7 +111,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "charispapaev"
+  bluesky          : "https://bsky.app/profile/bsky.charispapaevangelou.eu"
   vine             :
   weibo            :
   xing             :

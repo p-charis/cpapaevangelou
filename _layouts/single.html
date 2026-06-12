@@ -15,8 +15,6 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
-
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -43,10 +41,12 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+        {% if page.paperurl %}
+          <p><a class="button" href="{{ page.paperurl }}">Read publication <span aria-hidden="true">&nearr;</span></a></p>
+        {% endif %}
+
+        {% if page.citation %}
+          <p class="recommended-citation"><strong>Recommended citation:</strong> {{ page.citation }}</p>
         {% endif %}
     
         </header>

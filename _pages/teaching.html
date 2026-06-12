@@ -1,12 +1,15 @@
 ---
 layout: archive
-title: "Lectures"
+title: "Teaching"
 permalink: /teaching/
-author_profile: true
 ---
 
-{% include base_path %}
+<p class="archive-intro">Courses and lectures across digital methods, platform studies, political economy, and AI governance.</p>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign teaching = site.teaching | sort: 'date' | reverse %}
+{% for post in teaching %}
+  <article class="archive-row">
+    <p class="archive-row__meta">{{ post.date | date: '%Y' }}{% if post.location %}<br>{{ post.location }}{% endif %}</p>
+    <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.type }}{% if post.venue %} &middot; {{ post.venue }}{% endif %}</p></div>
+  </article>
 {% endfor %}

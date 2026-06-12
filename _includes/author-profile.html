@@ -8,9 +8,9 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar }}" onerror="this.onerror=null;this.src='{{ '/images/profile-pic-2025.png' | prepend: base_path }}';" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" onerror="this.onerror=null;this.src='{{ '/images/profile-pic-2025.png' | prepend: base_path }}';" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
 
@@ -40,8 +40,8 @@
        {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
-      {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      {% if author.bluesky %}
+        <li><a href="{{ author.bluesky }}"><svg class="social-icon social-icon--bluesky" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 10.8c-1.09-2.11-4.05-6.05-6.8-7.99C2.56.95 1.55 1.27.9 1.57.14 1.91 0 3.08 0 3.77c0 .69.38 5.65.62 6.48.81 2.74 3.68 3.67 6.31 3.37-4.58.7-8.64 2.42-3.31 8.35 5.86 6.07 8.03-1.3 8.38-3.52.35 2.22 2.52 9.59 8.38 3.52 5.33-5.93 1.27-7.65-3.31-8.35 2.63.3 5.5-.63 6.31-3.37.24-.83.62-5.79.62-6.48 0-.69-.14-1.86-.9-2.2-.65-.3-1.66-.62-4.3 1.24C16.05 4.75 13.09 8.69 12 10.8Z"/></svg> Bluesky</a></li>
       {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
