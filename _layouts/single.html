@@ -41,11 +41,7 @@ layout: default
         {% endif %}
         
              
-        {% if page.collection == 'publications' and page.paperurl %}
-          <p><a class="button publication-source" href="{{ page.paperurl }}">{{ page.link_label | default: 'Publisher / source' }} <span aria-hidden="true">&nearr;</span></a></p>
-        {% endif %}
-
-        {% if page.citation %}
+        {% if page.collection != 'publications' and page.citation %}
           <p class="recommended-citation"><strong>Recommended citation:</strong> {{ page.citation }}</p>
         {% endif %}
     
@@ -58,6 +54,12 @@ layout: default
             <h2>{% if page.abstract_available %}Abstract{% else %}Summary{% endif %}</h2>
             {% if page.abstract_available %}{{ page.excerpt | markdownify }}{% else %}{{ content }}{% endif %}
           </div>
+          {% if page.paperurl %}
+            <p class="publication-action"><a class="button publication-source" href="{{ page.paperurl }}">{{ page.link_label | default: 'Read publication' }} <span aria-hidden="true">&nearr;</span></a></p>
+          {% endif %}
+          {% if page.citation %}
+            <p class="recommended-citation"><strong>Recommended citation:</strong> {{ page.citation }}</p>
+          {% endif %}
         {% else %}
           {{ content }}
         {% endif %}
