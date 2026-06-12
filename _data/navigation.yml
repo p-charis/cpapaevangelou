@@ -1,19 +1,22 @@
-# main links links
+# Main navigation
 main:
+  - title: "About"
+    url: /
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Presentations"
-    url: /talks/    
+  - title: "Talks"
+    url: /talks/
 
-  - title: "Lectures"
-    url: /teaching/    
-    
-  - title: "Research Data"
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Projects & Data"
     url: /portfolio/
-        
+
   - title: "Press"
     url: /press/
-    
+
   - title: "CV"
     url: /cv/

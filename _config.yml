@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Charis Papaevangelou (About)"
+title                    : "Charis Papaevangelou"
 title_separator          : "-"
 name                     : &name "Charis Papaevangelou"
-description              : &description "Ph.D."
-url                      : https://p-charis.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/cpapaevangelou" # the subpath of your site, e.g. "/blog"
-repository               : "p-charis.github.io/cpapaevangelou/"
+description              : &description "Researcher working on platform governance, media policy, and the political economy of digital infrastructures."
+url                      : https://www.charispapaevangelou.eu
+baseurl                  : ""
+repository               : "p-charis/cpapaevangelou"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "@charispapaev"
+  username               : "charispapaev"
 facebook:
   username               :
   app_id                 :
@@ -66,9 +66,12 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: https://twitter.com/charispapaev # An array of links to social media profiles
+  type                   : Person
+  name                   : "Charis Papaevangelou"
+  links:
+    - https://twitter.com/charispapaev
+    - https://www.linkedin.com/in/charis-papaevangelou/
+    - https://orcid.org/0000-0003-2790-9321
 
 
 # Analytics
@@ -82,7 +85,7 @@ analytics:
 author:
   name             : "Charis Papaevangelou"
   avatar           : "profile_pic.jpg"
-  bio              : "Ph.D. | Postdoctoral Researcher at the University of Amsterdam (IViR) & part of AlgoSoc"
+  bio              : "Postdoctoral researcher at the University of Amsterdam (IViR) and member of AlgoSoc."
   location         : "Amsterdam, Netherlands"
   employer         : 
   pubmed           : 
@@ -102,19 +105,19 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/charis-papaevangelou/"
+  linkedin         : "charis-papaevangelou"
   orcid            : "https://orcid.org/0000-0003-2790-9321"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "@charispapaev"
+  twitter          : "charispapaev"
   vine             :
   weibo            :
   xing             :
   youtube          :
-  mastodon         : "@p_charis"
+  mastodon         :
 
 
 # Reading Files
