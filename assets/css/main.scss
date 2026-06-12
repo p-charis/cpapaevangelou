@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.28fr) minmax(290px, 0.72fr);
-  gap: clamp(2.5rem, 6vw, 5.5rem);
+  gap: clamp(1.5rem, 6vw, 5.5rem);
   align-items: center;
   min-height: 70vh;
   padding: 5.5rem 0;
@@ -513,6 +513,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: var(--fig-leaf);
   box-shadow: 0 -1px 0 rgba(47, 51, 44, 0.16);
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }
 
 .page__footer footer { max-width: none; padding: 0; }
@@ -538,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  margin-left: 0;
+  margin-left: auto;
   color: #dedfdb;
   font-size: 0.68rem;
   font-weight: 700;
@@ -554,6 +555,10 @@ table { border-color: var(--line); background: var(--surface); }
 th { color: var(--fig-leaf); background: rgba(83, 99, 75, 0.08); }
 td, th { border-color: var(--line); }
 
+.contact-page { max-width: 620px; font-size: 1.05rem; }
+.contact-page .button { margin-top: 1rem; }
+.contact-page__address { color: var(--muted); font-size: 0.82rem; }
+
 @media (max-width: 900px) {
   .home-hero { grid-template-columns: 1fr; min-height: 0; }
   .home-portrait { max-width: 430px; }
@@ -564,7 +569,7 @@ td, th { border-color: var(--line); }
 }
 
 @media (max-width: 650px) {
-  body { padding-bottom: 2rem; }
+  body { padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0px)); }
   #main, .home { width: min(100% - 2rem, 1160px); }
   .masthead__inner-wrap { padding-right: 1rem; padding-left: 1rem; }
   .masthead__menu-item--lg { padding-right: 1rem; }
@@ -605,9 +610,6 @@ td, th { border-color: var(--line); }
     font-size: 0.72rem;
   }
   .site-footer__email span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-  .site-footer__inner .profile-links { flex: 0 0 auto; flex-wrap: nowrap; gap: 0.55rem; margin-left: auto; }
-  .site-footer__inner .profile-links a { gap: 0; font-size: 0.75rem; }
-  .site-footer__inner .profile-links a span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }
 
 @media (prefers-reduced-motion: reduce) {

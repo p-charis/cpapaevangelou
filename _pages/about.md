@@ -20,11 +20,6 @@ redirect_from:
       <p>I am a postdoctoral researcher at the University of Amsterdam's <a href="https://www.ivir.nl/">Institute for Information Law</a>, where I work within the <a href="https://algosoc.org/">Public Values in the Algorithmic Society (AlgoSoc)</a> programme. I am also affiliated with the University of Toulouse through the Horizon Europe <a href="https://forsee-project.eu/">FORSEE</a> project.</p>
       <p>My research draws from critical media, political economy, science and technology studies, and technology governance to examine how the interplay between large technology firms and state actors affects political, economic, informational, and natural environments. <br>My current interests revolve around the political economy of AI infrastructure, particularly data centres.</p>
     </div>
-    {% include profile-links.html %}
-    <div class="home-actions">
-      <a href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">&rarr;</span></a>
-      <a href="{{ '/files/june26-academic-minimal-cv.pdf' | relative_url }}">Download CV <span aria-hidden="true">&darr;</span></a>
-    </div>
   </div>
   <figure class="home-portrait home-portrait--desktop">
     <img src="{{ '/images/profile-pic-2025.png' | relative_url }}" alt="Portrait of Charis Papaevangelou">
@@ -79,8 +74,4 @@ redirect_from:
     </article>
     {% endfor %}
   </div>
-</section>
-
-<section class="home-contact" aria-labelledby="contact-heading">
-  <h2 id="contact-heading">You can reach out to me at: <a href="mailto:c.papaevangelou@uva.nl">c.papaevangelou[at]uva.nl</a>.</h2>
 </section>
