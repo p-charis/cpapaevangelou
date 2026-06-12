@@ -55,7 +55,7 @@ redirect_from:
 <section class="home-section currently" aria-labelledby="currently-heading">
   <div class="section-heading">
     <div>
-      <h2 id="currently-heading">What I am...</h2>
+      <h2 id="currently-heading">What I am enjoying</h2>
     </div>
     <a class="text-link" href="{{ '/currently/' | relative_url }}">Activity log <span aria-hidden="true">&rarr;</span></a>
   </div>
