@@ -12,6 +12,9 @@ redirect_from:
   <div class="home-hero__copy">
     <p class="eyebrow">Platforms / AI / infrastructure / democracy</p>
     <h1>Charis Papaevangelou</h1>
+    <figure class="home-portrait home-portrait--mobile">
+      <img src="{{ '/images/profile-pic-2025.png' | relative_url }}" alt="Portrait of Charis Papaevangelou">
+    </figure>
     <p class="home-hero__lead">I study how Big Tech's platforms, AI systems, and material infrastructures reshape society and the environment.</p>
     <div class="home-hero__bio">
       <p>I am a postdoctoral researcher at the University of Amsterdam's <a href="https://www.ivir.nl/">Institute for Information Law</a>, where I work within the <a href="https://algosoc.org/">Public Values in the Algorithmic Society (AlgoSoc)</a> programme. I am also affiliated with the University of Toulouse through the Horizon Europe <a href="https://forsee-project.eu/">FORSEE</a> project.</p>
@@ -23,7 +26,7 @@ redirect_from:
       <a href="{{ '/files/june26-academic-minimal-cv.pdf' | relative_url }}">Download CV <span aria-hidden="true">&darr;</span></a>
     </div>
   </div>
-  <figure class="home-portrait">
+  <figure class="home-portrait home-portrait--desktop">
     <img src="{{ '/images/profile-pic-2025.png' | relative_url }}" alt="Portrait of Charis Papaevangelou">
   </figure>
 </section>
