@@ -18,7 +18,7 @@ redirect_from:
     <p class="home-hero__lead">I study how the power relations between state actors and tech firms shape technology's political economy, including their implications for our societies and the environment, and our capacity to reclaim control.</p>
     <div class="home-hero__bio">
       <p>I am a postdoctoral researcher at the University of Amsterdam's <a href="https://www.ivir.nl/">Institute for Information Law</a>, where I work within the <a href="https://algosoc.org/">Public Values in the Algorithmic Society (AlgoSoc)</a> programme. I am also affiliated with the University of Toulouse through the Horizon Europe <a href="https://forsee-project.eu/">FORSEE</a> project.</p>
-      <p>My research draws from critical media, political economy, science and technology studies, and technology governance to examine how the interplay between large technology firms and state actors affects political, economic, informational, and natural environments. <br>My current interests revolve around the political economy of AI infrastructure, particularly data centres.</p>
+      <p>My research draws from critical media, political economy, science and technology studies, and technology governance to examine how the interplay between large technology firms and state actors affects political, economic, informational, and natural environments. <br>My current interests revolve around the political economy of AI infrastructure, particularly data centres. <a href="{{ '/contact/' | relative_url }}">Get in touch</a>.</p>
     </div>
   </div>
   <figure class="home-portrait home-portrait--desktop">
