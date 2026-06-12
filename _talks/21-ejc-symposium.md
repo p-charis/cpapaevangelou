@@ -1,5 +1,5 @@
 ---
-title: "European Journal of Communication Symposium"
+title: "The Relationship Between Journalists and Platforms in European Online Content Governance"
 collection: talks
 type: "Conference"
 permalink: /talks/21-10-21-ejc-symposium

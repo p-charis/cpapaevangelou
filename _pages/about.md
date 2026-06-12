@@ -60,14 +60,20 @@ redirect_from:
       <p class="eyebrow">In rotation</p>
       <h2 id="currently-heading">Currently</h2>
     </div>
-    {% if site.data.currently.updated %}<p class="currently__updated">Updated {{ site.data.currently.updated }}</p>{% endif %}
+    <a class="text-link" href="{{ '/currently/' | relative_url }}">Activity log <span aria-hidden="true">&rarr;</span></a>
   </div>
   <div class="currently-grid">
     {% for item in site.data.currently.items %}
     <article class="currently-card">
       <p class="currently-card__label">{{ item.label }}</p>
-      <h3>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
-      {% if item.note %}<p>{{ item.note }}</p>{% endif %}
+      {% for entry in item.current %}
+      <div class="currently-card__entry">
+        <h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
+        {% if entry.creator %}<p>{{ entry.creator }}</p>{% endif %}
+        {% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
+      </div>
+      {% endfor %}
+      {% if item.profile_url %}<a class="currently-card__profile" href="{{ item.profile_url }}">{{ item.profile_label }} <span aria-hidden="true">&nearr;</span></a>{% endif %}
     </article>
     {% endfor %}
   </div>

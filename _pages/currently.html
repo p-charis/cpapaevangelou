@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "Activity Log"
+permalink: /currently/
+---
+
+<p class="archive-intro">A running record of what I am reading, playing, watching, and listening to.</p>
+
+{% for item in site.data.currently.items %}
+<section class="activity-group">
+  <h2 class="archive-year">{{ item.label }}</h2>
+  {% for entry in item.current %}
+  <article class="archive-row activity-row">
+    <p class="archive-row__meta">Current</p>
+    <div>
+      <h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
+      {% if entry.creator %}<p>{{ entry.creator }}</p>{% endif %}
+      {% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
+      {% if entry.service %}<p><a class="text-link" href="{{ entry.url }}">Open on {{ entry.service }} <span aria-hidden="true">&nearr;</span></a></p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+  {% for entry in item.history %}
+  <article class="archive-row activity-row">
+    <p class="archive-row__meta">{{ entry.date }}</p>
+    <div>
+      <h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
+      {% if entry.creator %}<p>{{ entry.creator }}</p>{% endif %}
+      {% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+  {% if item.profile_url %}<p class="activity-profile"><a class="text-link" href="{{ item.profile_url }}">My {{ item.profile_label }} profile <span aria-hidden="true">&nearr;</span></a></p>{% endif %}
+</section>
+{% endfor %}
