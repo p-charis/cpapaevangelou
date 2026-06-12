@@ -56,8 +56,6 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
-  username               : "charispapaev"
 facebook:
   username               :
   app_id                 :
@@ -69,7 +67,6 @@ social:
   type                   : Person
   name                   : "Charis Papaevangelou"
   links:
-    - https://x.com/charispapaev
     - https://bsky.app/profile/bsky.charispapaevangelou.eu
     - https://www.linkedin.com/in/charis-papaevangelou/
     - https://orcid.org/0000-0003-2790-9321
@@ -113,7 +110,6 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "charispapaev"
   bluesky          : "https://bsky.app/profile/bsky.charispapaevangelou.eu"
   vine             :
   weibo            :
