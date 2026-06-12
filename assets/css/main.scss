@@ -601,7 +601,25 @@ td, th { border-color: var(--line); }
 }
 
 @media (min-width: 651px) and (max-width: 900px) {
-  .home-portrait--mobile { width: 120px; }
+  .home-portrait--mobile { width: 150px; }
+}
+
+@supports (-webkit-touch-callout: none) {
+  @media (min-width: 901px) and (max-width: 1366px) {
+    .home-hero { grid-template-columns: 1fr; min-height: 0; }
+    .home-portrait--desktop { display: none; }
+    .home-portrait--mobile {
+      display: block;
+      width: 150px;
+      margin: -0.6rem auto 1.5rem;
+    }
+    .home-portrait--mobile img {
+      aspect-ratio: 1;
+      border-radius: 50%;
+      box-shadow: 4px 4px 0 rgba(83, 99, 75, 0.28);
+      object-position: 55% center;
+    }
+  }
 }
 
 @media (max-width: 650px) {
