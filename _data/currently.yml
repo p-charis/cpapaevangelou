@@ -1,17 +1,32 @@
-# Edit this file to update the "Currently" section on the homepage.
+# Edit current entries here. Move older entries into the history list when
+# you want to preserve them on the activity log page.
 updated: "June 2026"
 items:
   - label: "Reading"
-    title: "Add your current read"
-    note: "Book, paper, newsletter, or anything else on the nightstand."
-    url:
-
-  - label: "Listening"
-    title: "Add what is on repeat"
-    note: "An album, podcast, radio show, or mix."
-    url:
+    current:
+      - title: "The Mechanic and the Luddite"
+        creator: "Jathan Sadowski"
+      - title: "The New Byzantines: The Rise of Greece and Return of the Near East"
+        creator: "Sean Mathews"
+    history: []
 
   - label: "Playing"
-    title: "Add your current game"
-    note: "Video game, tabletop game, or ongoing distraction."
-    url:
+    current:
+      - title: "Nothing at the moment :("
+        note: "Very close to restarting Elden Ring."
+    history: []
+
+  - label: "Watching"
+    current:
+      - title: "TV: Game of Thrones"
+      - title: "For films: check my Letterboxd page"
+        url: "https://letterboxd.com/domx/"
+    history: []
+
+  - label: "Listening"
+    current:
+      - title: "From Takoma With Love"
+        creator: "Oddisee"
+        url: "https://open.qobuz.com/album/i6pbpkprqb01h"
+        service: "Qobuz"
+    history: []

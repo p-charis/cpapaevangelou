@@ -1,5 +1,5 @@
 ---
-title: "D4.1 Social Media Analysis of AI Applications"
+title: "FORSEE Horizon Deliverable: Social Media Analysis of AI Applications"
 collection: publications
 permalink: /publication/2026/forsee-social-media-analysis
 date: 2026-01-31

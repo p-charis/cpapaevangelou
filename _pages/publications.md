@@ -18,7 +18,7 @@ permalink: /publications/
 {% assign current_year = publication_year %}
 {% endif %}
 <article class="publication-entry">
-<p class="publication-entry__meta">{% if post.status %}{{ post.status }} &middot; {% endif %}{% if post.venue %}<i>{{ post.venue }}</i>{% endif %}</p>
+<p class="publication-entry__meta">{% if post.date_precision == 'year' %}{{ post.date | date: '%Y' }}{% else %}{{ post.date | date: '%-d %B %Y' }}{% endif %}{% if post.status %}<br>{{ post.status }}{% endif %}{% if post.venue %}<br><i>{{ post.venue }}</i>{% endif %}</p>
 <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
 {% if post.authors %}<p class="publication-entry__authors">{{ post.authors }}</p>{% endif %}
 <div class="publication-entry__links">

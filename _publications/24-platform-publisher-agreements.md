@@ -2,7 +2,8 @@
 title: "What can we learn from the agreements between platforms and news publishers in France?"
 collection: publications
 permalink: /publication/2024/platform-publisher-agreements-france
-date: 2024-06-01
+date: 2024-01-01
+date_precision: year
 venue: "Novel Directions in Media Innovation and Funding"
 authors: "Charis Papaevangelou"
 ---

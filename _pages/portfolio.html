@@ -10,8 +10,11 @@ permalink: /portfolio/
 <p class="archive-intro">Research projects, datasets, and collaborative initiatives.</p>
 
 {% for post in site.portfolio reversed %}
-  <article class="archive-row">
-    <p class="archive-row__meta">Project</p>
-    <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}</div>
-  </article>
+<article class="archive-row">
+  <p class="archive-row__meta">Project</p>
+  <div>
+    <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </div>
+</article>
 {% endfor %}

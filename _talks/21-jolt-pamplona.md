@@ -1,5 +1,5 @@
 ---
-title: "JOLT Pamplona Conference"
+title: "The Political Stakes of Online Platforms' Deals with French Publishers"
 collection: talks
 type: "Presentation"
 permalink: /talks/17-9-21-jolt-pamplona

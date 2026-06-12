@@ -2,7 +2,7 @@
 title: "Trading nuance for scale? Platform observability and content governance under the DSA"
 collection: publications
 permalink: /publication/2025/platform-observability-dsa
-date: 2025-01-01
+date: 2025-09-17
 venue: "Internet Policy Review"
 authors: "Charis Papaevangelou and Fabio Votta"
 paperurl: "https://doi.org/10.14763/2025.3.2037"

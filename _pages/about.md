@@ -40,7 +40,7 @@ redirect_from:
     {% assign featured_publications = site.publications | sort: 'date' | reverse %}
     {% for post in featured_publications limit:4 %}
       <article class="publication-row">
-        <p class="publication-row__meta">{{ post.date | date: '%Y' }}{% if post.status %}<br>{{ post.status }}{% elsif post.venue %}<br>{{ post.venue }}{% endif %}</p>
+        <p class="publication-row__meta">{% if post.date_precision == 'year' %}{{ post.date | date: '%Y' }}{% else %}{{ post.date | date: '%-d %B %Y' }}{% endif %}{% if post.status %}<br>{{ post.status }}{% elsif post.venue %}<br>{{ post.venue }}{% endif %}</p>
         <div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           {% if post.authors %}<p class="publication-row__authors">{{ post.authors }}</p>{% endif %}
@@ -50,6 +50,30 @@ redirect_from:
           </div>
         </div>
       </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="home-section currently" aria-labelledby="currently-heading">
+  <div class="section-heading">
+    <div>
+      <h2 id="currently-heading">What I am...</h2>
+    </div>
+    <a class="text-link" href="{{ '/currently/' | relative_url }}">Activity log <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="currently-grid">
+    {% for item in site.data.currently.items %}
+    <article class="currently-card">
+      <p class="currently-card__label">{{ item.label }}</p>
+      {% for entry in item.current %}
+      <div class="currently-card__entry">
+        <h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
+        {% if entry.creator %}<p>{{ entry.creator }}</p>{% endif %}
+        {% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
+      </div>
+      {% endfor %}
+      {% if item.profile_url %}<a class="currently-card__profile" href="{{ item.profile_url }}">{{ item.profile_label }} <span aria-hidden="true">&nearr;</span></a>{% endif %}
+    </article>
     {% endfor %}
   </div>
 </section>
