@@ -42,7 +42,7 @@ layout: default
         
              
         {% if page.collection == 'publications' and page.paperurl %}
-          <p><a class="button publication-source" href="{{ page.paperurl }}">Publisher / source <span aria-hidden="true">&nearr;</span></a></p>
+          <p><a class="button publication-source" href="{{ page.paperurl }}">{{ page.link_label | default: 'Publisher / source' }} <span aria-hidden="true">&nearr;</span></a></p>
         {% endif %}
 
         {% if page.citation %}
@@ -53,7 +53,14 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        {% if page.collection == 'publications' %}
+          <div class="publication-abstract">
+            <h2>{% if page.abstract_available %}Abstract{% else %}Summary{% endif %}</h2>
+            {% if page.abstract_available %}{{ page.excerpt | markdownify }}{% else %}{{ content }}{% endif %}
+          </div>
+        {% else %}
+          {{ content }}
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

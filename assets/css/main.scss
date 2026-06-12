@@ -355,11 +355,14 @@ h1, h2, h3, h4, h5, h6 {
 .page[itemtype="http://schema.org/CreativeWork"] .publication-source { margin-top: 0.35rem; }
 
 .publication-page .page__title {
-  max-width: 900px;
-  font-size: clamp(2rem, 3.8vw, 3.5rem);
-  line-height: 1.08;
-  letter-spacing: -0.035em;
+  max-width: 820px;
+  font-size: clamp(1.45rem, 2.2vw, 2.15rem);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
 }
+
+.publication-abstract { max-width: 780px; }
+.publication-abstract > p:first-of-type { margin-top: 0; }
 
 .archive-year {
   margin: 3rem 0 0;
@@ -456,7 +459,7 @@ td, th { border-color: var(--line); }
   .masthead__inner-wrap { padding-right: 1rem; padding-left: 1rem; }
   .masthead__menu-item--lg { padding-right: 1rem; }
   .home-hero { padding: 3.5rem 0 4rem; }
-  .home-hero h1 { font-size: clamp(3.2rem, 16vw, 4.8rem); }
+  .home-hero h1 { font-size: clamp(2.9rem, 14vw, 4.2rem); }
   .home-section, .home-contact { padding: 3.5rem 0; }
   .section-heading { display: block; }
   .section-heading .text-link { display: inline-block; margin-top: 0.75rem; }

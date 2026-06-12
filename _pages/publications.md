@@ -22,7 +22,7 @@ permalink: /publications/
 <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
 {% if post.authors %}<p class="publication-entry__authors">{{ post.authors }}</p>{% endif %}
 <div class="publication-entry__links">
-<a href="{{ post.paperurl }}">Publisher / source <span aria-hidden="true">&nearr;</span></a>
+{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.link_label | default: 'Publisher / source' }} <span aria-hidden="true">&nearr;</span></a>{% endif %}
 <a href="{{ base_path }}{{ post.url }}">Details <span aria-hidden="true">&rarr;</span></a>
 </div>
 </article>

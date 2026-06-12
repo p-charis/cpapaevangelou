@@ -9,4 +9,4 @@ paperurl: "https://doi.org/10.1386/jdmp_00201_1"
 citation: "Papaevangelou, C., Kutscher, S., Helberger, N., van Dijck, J., & Poell, T. (2026). Shared responsibility, unequal powers: Mapping the limitations of multi-stakeholderism in EU's digital governance. <i>Journal of Digital Media & Policy</i>."
 ---
 
-This article maps the limitations of multi-stakeholderism in the European Union's digital governance.
+This article maps how powers and responsibilities are distributed among stakeholders implementing the Digital Services Act, Digital Markets Act, Artificial Intelligence Act, and European Media Freedom Act. Its framework examines competencies, capacities, connectedness, and regulatory functions, showing how technocratic expertise and industry power can marginalise public-interest actors despite the democratic promise of multi-stakeholder governance.
