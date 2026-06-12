@@ -8,4 +8,4 @@ date: 2021-06-25
 location: "Dublin, Ireland"
 ---
 
-Presented our work on the CovidCheck Report at FuJo&apos;s Advisory Board
+Presented the COVIDCheck report to FuJo's Advisory Board.

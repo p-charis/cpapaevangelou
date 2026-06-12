@@ -28,10 +28,10 @@
 
 :root {
   --ink: #2f332c;
-  --muted: #66685f;
+  --muted: #62645c;
   --sandstone: #e9dfce;
   --fig-leaf: #53634b;
-  --dried-fig: #955f68;
+  --dried-fig: #89545e;
   --surface: #f2e9db;
   --line: #c8bcaa;
   --font: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -40,7 +40,7 @@
 html { background: var(--sandstone); }
 
 body {
-  padding-bottom: 3.5rem;
+  padding-bottom: 0;
   color: var(--ink);
   background: var(--sandstone);
   font-family: var(--font);
@@ -58,6 +58,16 @@ h1, h2, h3, h4, h5, h6,
 
 a { color: var(--fig-leaf); }
 a:hover { color: var(--dried-fig); }
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--dried-fig);
+  outline-offset: 3px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--fig-leaf);
@@ -301,6 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publication-row h3,
+.archive-row h2,
 .archive-row h3,
 .publication-entry h3 {
   margin: 0;
@@ -311,6 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publication-row h3 a,
+.archive-row h2 a,
 .archive-row h3 a,
 .publication-entry h3 a {
   color: var(--ink);
@@ -318,6 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publication-row h3 a:hover,
+.archive-row h2 a:hover,
 .archive-row h3 a:hover,
 .publication-entry h3 a:hover { color: var(--dried-fig); }
 
@@ -505,13 +518,9 @@ h1, h2, h3, h4, h5, h6 {
 .archive__item-meta { color: var(--dried-fig); font-size: 0.78rem; }
 
 .page__footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 25;
+  position: static;
   clear: both;
-  margin-top: 0;
+  margin-top: 4rem;
   color: #fff;
   background: var(--fig-leaf);
   box-shadow: 0 -1px 0 rgba(47, 51, 44, 0.16);
@@ -572,7 +581,7 @@ td, th { border-color: var(--line); }
 }
 
 @media (max-width: 650px) {
-  body { padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0px)); }
+  body { padding-bottom: 0; }
   #main, .home { width: min(100% - 2rem, 1160px); }
   .masthead__inner-wrap { padding-right: 1rem; padding-left: 1rem; }
   .masthead__menu-item--lg { padding-right: 1rem; }

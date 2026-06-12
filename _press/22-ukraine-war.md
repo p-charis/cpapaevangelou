@@ -1,11 +1,13 @@
 ---
 title: "The War in Ukraine Exposes Social Media as a Tool of the State"
-collection: posts
-type: "Press"
+collection: press
+type: "Commentary"
 permalink: /posts/12/3/22-ukraine-war
 venue: "Tech Policy Press"
 date: 2022-03-12
 location: "Online"
+link: "https://techpolicy.press/the-war-in-ukraine-exposes-social-media-as-a-tool-of-the-state/"
+excerpt: "Commentary with Nikos Smyrnaios on social media platforms and state power during Russia's invasion of Ukraine."
 ---
 
 Opinion piece with Nikos Smyrnaios on the illegal invasion of Ukraine by Russia for the Tech Policy Press

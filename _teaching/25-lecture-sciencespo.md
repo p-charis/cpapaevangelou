@@ -1,8 +1,8 @@
 ---
 title: "Platforms and the News Industry"
-collection: talks
+collection: teaching
 type: "Lecture"
-permalink: /talks/11/04/23-lecture-sciencespo
+permalink: /teaching/2023/platforms-news-industry-sciences-po
 venue: "Sciences Po, Campus de Reims"
 date: 2023-04-11
 location: "Reims, France"

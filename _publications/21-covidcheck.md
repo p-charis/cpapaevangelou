@@ -9,7 +9,7 @@ excerpt: 'CovidCheck is the third monitoring report that has been commissioned b
 venue: 'Dublin City University'
 authors: 'Eileen Culloty, Kirsty Park, Trudy Feenane, Charis Papaevangelou, Alex Conroy, and Jane Suiter'
 paperurl: 'http://doras.dcu.ie/26472/1/20210914_Final-Report_DCU.pdf'
-citation: 'Eileen, C., Kirsty, P., Feenane, T., Papaevangelou, C., Conroy, A., & Suiter, J. (2021). CovidCheck: Assessing the Implentation of EU Code of Practice on Disinformation in Relation to Covid-19. <i>DCU Institute of Future Media, Democracy and Society &amp; Broadcasting Authority of Ireland </i>. https://fujomedia.eu/wp-content/uploads/2021/09/Code2021_COVIDCheck.pdf'
+citation: 'Eileen, C., Kirsty, P., Feenane, T., Papaevangelou, C., Conroy, A., & Suiter, J. (2021). CovidCheck: Assessing the Implementation of EU Code of Practice on Disinformation in Relation to Covid-19. <i>DCU Institute of Future Media, Democracy and Society &amp; Broadcasting Authority of Ireland </i>. https://fujomedia.eu/wp-content/uploads/2021/09/Code2021_COVIDCheck.pdf'
 
 ---
-Recommended citation: Eileen, C., Kirsty, P., Feenane, T., Papaevangelou, C., Conroy, A., &amp; Suiter, J. (2021). CovidCheck: Assessing the Implentation of EU Code of Practice on Disinformation in Relation to Covid-19. <i>DCU Institute of Future Media, Democracy and Society &amp; Broadcasting Authority of Ireland </i>. https://fujomedia.eu/wp-content/uploads/2021/09/Code2021_COVIDCheck.pdf
+Recommended citation: Eileen, C., Kirsty, P., Feenane, T., Papaevangelou, C., Conroy, A., &amp; Suiter, J. (2021). CovidCheck: Assessing the Implementation of EU Code of Practice on Disinformation in Relation to Covid-19. <i>DCU Institute of Future Media, Democracy and Society &amp; Broadcasting Authority of Ireland </i>. https://fujomedia.eu/wp-content/uploads/2021/09/Code2021_COVIDCheck.pdf

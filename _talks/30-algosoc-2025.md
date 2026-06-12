@@ -1,7 +1,7 @@
 ---
 title: "AlgoSoc International Conference 2025"
 collection: talks
-type: "Conference presentation"
+type: "Presentation"
 permalink: /talks/2025-algosoc-international-conference
 venue: "AlgoSoc International Conference"
 date: 2025-04-10

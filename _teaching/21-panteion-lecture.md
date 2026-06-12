@@ -1,11 +1,11 @@
 ---
 title: "The Political Economy of Live-Streaming Video-Games"
-collection: talks
+collection: teaching
 type: "Lecture"
-permalink: /talks/28/1/21-panteion-lecture
+permalink: /teaching/2021/panteion-political-economy-twitch
 venue: "Panteion University of Social & Political Sciences"
 date: 2021-01-28
 location: "Athens, Greece"
 ---
 
-Gave a lecture to BA students of Media Studies on the Political Economy of Twitch
+Gave a lecture to BA media studies students on the political economy of Twitch.

@@ -8,4 +8,4 @@ date: 2021-05-31
 location: "Toulouse, France"
 ---
 
-Organised &amp; participated in the JOLT June 2021 Conference in Toulouse
+Organised and participated in the June 2021 JOLT conference in Toulouse.

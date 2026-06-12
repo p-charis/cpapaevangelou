@@ -1,7 +1,7 @@
 ---
 title: "Critical Perspectives on AI Governance"
 collection: teaching
-type: "Advanced LLM Technology Governance course"
+type: "Course"
 permalink: /teaching/critical-perspectives-ai-governance
 venue: "University of Amsterdam"
 date: 2024-09-01

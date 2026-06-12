@@ -1,11 +1,13 @@
 ---
 title: "Journalism, Platforms, and the Challenges of Public Policy"
-collection: posts
+collection: press
 type: "Article"
 permalink: /posts/7/2/23-tpp-funding-post
 venue: "Tech Policy Press"
 date: 2023-02-07
-location: ""
+location: "Online"
+link: "https://techpolicy.press/journalism-platforms-and-the-challenges-of-public-policy/"
+excerpt: "An article on Google and Meta's journalism funding programmes and their public-policy implications."
 ---
 
 [Read here](https://techpolicy.press/journalism-platforms-and-the-challenges-of-public-policy/)

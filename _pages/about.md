@@ -36,7 +36,7 @@ redirect_from:
   </div>
   <div class="home-publications">
     {% assign featured_publications = site.publications | sort: 'date' | reverse %}
-    {% for post in featured_publications limit:4 %}
+    {% for post in featured_publications limit:3 %}
       <article class="publication-row">
         <p class="publication-row__meta">{% if post.date_precision == 'year' %}{{ post.date | date: '%Y' }}{% else %}{{ post.date | date: '%-d %B %Y' }}{% endif %}{% if post.status %}<br>{{ post.status }}{% elsif post.venue %}<br>{{ post.venue }}{% endif %}</p>
         <div>

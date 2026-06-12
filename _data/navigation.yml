@@ -6,15 +6,6 @@ main:
   - title: "Presentations"
     url: /presentations/
 
-  - title: "Teaching"
-    url: /teaching/
-
-  - title: "Projects"
-    url: /portfolio/
-
-  - title: "Press"
-    url: /press/
-
   - title: "CV"
     url: /cv/
 

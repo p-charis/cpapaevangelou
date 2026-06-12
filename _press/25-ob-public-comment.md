@@ -1,11 +1,12 @@
 ---
 title: "Response to the Oversight Board's Public Consultation on Greek 2023 elections campaign cases"
-collection: posts
-type: "Press"
+collection: press
+type: "Public comment"
 permalink: /posts/11/07/23-ob-public-consultation
 venue: "Oversight Board"
 date: 2023-11-07
 location: "Online"
+excerpt: "A response to the Oversight Board's consultation on content moderation during Greece's 2023 election campaign."
 ---
 
 <i>The story of far-right extremists’ participation in our national elections caused great societal concern last year and was the topic of many political discussions. Thus, first of all, I would like to thank the Oversight Board for undertaking such an important and politically sensitive case. I will now switch to Greek, my maternal language, as I would like to have this comment made public and shared with fellow Greeks.</i>

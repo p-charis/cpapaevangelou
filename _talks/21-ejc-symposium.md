@@ -1,7 +1,7 @@
 ---
 title: "The Relationship Between Journalists and Platforms in European Online Content Governance"
 collection: talks
-type: "Conference"
+type: "Presentation"
 permalink: /talks/21-10-21-ejc-symposium
 venue: "European Journal of Communication"
 date: 2022-10-21

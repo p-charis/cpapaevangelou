@@ -1,7 +1,7 @@
 ---
 title: "Digital Methods for Social Media Analysis"
 collection: teaching
-type: "MSc course"
+type: "Course"
 permalink: /teaching/2025-digital-methods-nkua
 venue: "MSc Cyberpsychology, National and Kapodistrian University of Athens"
 date: 2025-09-30
