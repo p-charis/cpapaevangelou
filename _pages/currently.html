@@ -7,7 +7,7 @@ permalink: /currently/
 <p class="archive-intro">A running record of what I am reading, playing, watching, and listening to.</p>
 
 {% for item in site.data.currently.items %}
-<section class="activity-group">
+<section class="activity-group activity-group--{{ forloop.index }}">
   <h2 class="archive-year">{{ item.label }}</h2>
   {% for entry in item.current %}
   <article class="archive-row activity-row">

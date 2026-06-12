@@ -430,6 +430,18 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.activity-group {
+  margin-top: 1rem;
+  padding: 1.4rem 1.5rem 1.5rem;
+  background: #e1d3bc;
+  border: 1px solid var(--line);
+}
+.activity-group--2 { background: #d8b8be; }
+.activity-group--3 { background: #b9c2af; }
+.activity-group--4 { background: #f2e3cd; }
+.activity-group .archive-year { margin-top: 0; }
+.activity-group .archive-row { border-color: rgba(55, 54, 48, 0.22); }
+.activity-group .archive-row:last-of-type { border-bottom: 0; }
 .activity-profile { margin: 0.8rem 0 0 202px; }
 
 .home-contact {
@@ -637,6 +649,7 @@ td, th { border-color: var(--line); }
   .currently-grid { display: block; }
   .currently-card { box-sizing: border-box; }
   .currently-card + .currently-card { border-top: 1px solid var(--line); border-left: 0; }
+  .activity-group { padding: 1.15rem 1rem; }
   .activity-profile { margin-left: 0; }
   .site-footer__inner {
     flex-wrap: nowrap;
