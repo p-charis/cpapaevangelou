@@ -560,6 +560,7 @@ td, th { border-color: var(--line); }
 .contact-page { max-width: 620px; font-size: 1.05rem; }
 .contact-page .button { margin-top: 1rem; }
 .contact-page__address { color: var(--muted); font-size: 0.82rem; }
+.contact-page .profile-links { margin-top: 1rem; }
 
 @media (max-width: 900px) {
   .home-hero { grid-template-columns: 1fr; min-height: 0; }
