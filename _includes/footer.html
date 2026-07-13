@@ -1,5 +1,8 @@
 <div class="site-footer__inner">
-  <p class="site-footer__name">{{ site.name | default: site.title }}</p>
+  <div class="site-footer__identity">
+    <p class="site-footer__name">{{ site.name | default: site.title }}</p>
+    <p class="site-footer__credit">Built with <a href="https://jekyllrb.com/">Jekyll</a> via <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  </div>
   {% include profile-links.html hide_email=true %}
   <a class="site-footer__email" href="mailto:{{ site.author.email }}" aria-label="Email {{ site.name | default: site.title }}">
     <i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span>

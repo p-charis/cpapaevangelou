@@ -558,6 +558,25 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.2;
 }
+.site-footer__identity {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+.site-footer__credit {
+  margin: 0;
+  color: #dedfdb;
+  font-size: 0.58rem;
+  line-height: 1.2;
+  opacity: 0.82;
+}
+.site-footer__credit a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+.site-footer__credit a:hover { color: var(--sandstone); }
 .site-footer__email {
   display: inline-flex;
   align-items: center;
@@ -657,6 +676,8 @@ td, th { border-color: var(--line); }
     width: calc(100% - 2rem);
     padding: 0.1rem 0;
   }
+  .site-footer__identity { display: block; }
+  .site-footer__credit { margin-top: 0.08rem; font-size: 0.5rem; }
   .page__footer .site-footer__name { flex: 0 1 auto; overflow: hidden; font-size: 0.6rem; text-overflow: ellipsis; white-space: nowrap; }
   .site-footer__email {
     flex: 0 0 auto;

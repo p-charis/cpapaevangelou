@@ -55,7 +55,7 @@ layout: default
             {% if page.abstract_available %}{{ page.excerpt | markdownify }}{% else %}{{ content }}{% endif %}
           </div>
           {% if page.paperurl %}
-            <p class="publication-action"><a class="button publication-source" href="{{ page.paperurl }}">{{ page.link_label | default: 'Read publication' }} <span aria-hidden="true">&nearr;</span></a></p>
+            <p class="publication-action"><a class="button publication-source" href="{{ page.paperurl }}">{{ page.link_label | default: 'Read publication' }}</a></p>
           {% endif %}
           {% if page.citation %}
             <p class="recommended-citation"><strong>Recommended citation:</strong> {{ page.citation }}</p>

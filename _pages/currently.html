@@ -16,7 +16,7 @@ permalink: /currently/
       <h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
       {% if entry.creator %}<p>{{ entry.creator }}</p>{% endif %}
       {% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
-      {% if entry.service %}<p><a class="text-link" href="{{ entry.url }}">Open on {{ entry.service }} <span aria-hidden="true">&nearr;</span></a></p>{% endif %}
+      {% if entry.service %}<p><a class="text-link" href="{{ entry.url }}">Open on {{ entry.service }}</a></p>{% endif %}
     </div>
   </article>
   {% endfor %}
@@ -30,6 +30,6 @@ permalink: /currently/
     </div>
   </article>
   {% endfor %}
-  {% if item.profile_url %}<p class="activity-profile"><a class="text-link" href="{{ item.profile_url }}">My {{ item.profile_label }} profile <span aria-hidden="true">&nearr;</span></a></p>{% endif %}
+  {% if item.profile_url %}<p class="activity-profile"><a class="text-link" href="{{ item.profile_url }}">My {{ item.profile_label }} profile</a></p>{% endif %}
 </section>
 {% endfor %}
